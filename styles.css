@@ -1,17 +1,72 @@
-.noun {
+.pic { /* this css rule will be use for all the recipes pages */
+    height: auto;
+    width: 550px;
+}
+
+.noun { /* this font-family will be use throughout all pages in the website */
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.main {
-    color: goldenrod;
+/*the rules below is for the index page */
+
+.main { /* this rules is in the h1 and h2 tag */
+    color: #806c00;
+    text-align: center;
+    background-color: #dddd88;
+}
+
+.lol { /* this css rule for index images */
+    height: auto;
+    width: 600px;
+}
+
+/* the rules below is for the lemony-broccolini-pasta page */
+
+.lemon { /* this rules is in h1 tag only */
+    color: #ffcc33;
+    background-color: #006400;
     text-align: center;
 }
 
-.second {
-    color: hotpink;
+.same,
+.limun { /* this rules is to color the text */
+    color: #006400;
 }
 
-.lol {
-    height: auto;
-    width: 600px;
+.limun { /* this rules is to color the backgroung surround the text */
+    background-color: #ffcc33;
+}
+
+/* this rules below is for the pan-fried-cod-with-orange-and-swiss-chard page */
+
+.cod { /* this rules is in h1 tag only */
+    color: #ffaf1a;
+    background-color: #a52a2a;
+    text-align: center;
+}
+
+.sama,
+.pan { /* this rules is to color the text */
+    color: #a52a2a;
+}
+
+.pan { /* this rules is to color the backgroung surround the text */
+    background-color: #ffaf1a;
+}
+
+/* this rules is for the one-pan-roasted-chicken-with-carrots */
+
+.chick { /* this rules is in h1 tag only */
+    
+    text-align: center;
+}
+
+.seme,
+.chick { /* this rules is for the background color for the p, ul and ol tags */
+    background-color: #ccffff;
+}
+
+.one,
+.chick { /* this rules is to color all the text in the page */
+    color: #666633;
 }
